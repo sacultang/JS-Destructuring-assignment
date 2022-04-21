@@ -12,15 +12,15 @@
 
 ```js
 const user = {
-	name: 'Heropy',
+	name: 'abc',
 	age: 85,
-	email: 'thesecon@gmail.com',
+	email: 'abc@gmail.com',
 }
 
 const { name, age, email, address } = user
 
 console.log(`사용자의 이름은 ${name}입니다.`)
-// 사용자의 이름은 Heropy입니다.
+// 사용자의 이름은 abc입니다.
 console.log(`사용자의 이름은 ${age}입니다.`)
 // 사용자의 이름은 85입니다.
 console.log(address)
@@ -32,9 +32,9 @@ const { name, age, email, address = 'korea' } = user
 
 ```js
 const user = {
-  name: 'heropy',
+  name: 'abc',
   age: 85,
-  email: 'thesecon@gmail.com'
+  email: 'abc@gmail.com'
   address: 'usa'
 }
 
@@ -49,14 +49,14 @@ console.log(address)
 
 ```js
 const user = {
-	name: 'Heropy',
+	name: 'abc',
 	age: 85,
-	email: 'thesecon@gmail.com',
+	email: 'abc@gmail.com',
 }
 
 const { name: hello, age, email, address } = user
 console.log(hello)
-// Heropy 출력된다
+// abc 출력된다
 
 console.log(name)
 // name is not defined 에러가 출력된다
@@ -191,9 +191,9 @@ console.log(a, b, c, a === c)
 
 ```js
 const user = {
-	name: 'Heropy',
+	name: 'abc',
 	age: 85,
-	emails: ['sacultang@gmail.com'],
+	emails: ['abc@gmail.com'],
 }
 const copyUser = user
 console.log(copyUser === user)
@@ -210,9 +210,9 @@ console.log(copyUser.age) // 22
 // 복사방법.1
 // Object.assign()을 이용하는 방법
 const user = {
-	name: 'Heropy',
+	name: 'abc',
 	age: 85,
-	emails: ['sacultang@gmail.com'],
+	emails: ['abc@gmail.com'],
 }
 const copyUser = Object.assign({}, user)
 console.log(copyUser === user)

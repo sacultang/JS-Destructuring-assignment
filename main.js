@@ -8,9 +8,9 @@ import _ from 'lodash'
 */
 
 // const user = {
-// 	name: 'Heropy',
+// 	name: 'abc',
 // 	age: 85,
-// 	email: 'thesecon@gmail.com',
+// 	email: 'abc@gmail.com',
 // }
 
 // const { name: hello, age, email, address } = user
@@ -73,9 +73,9 @@ import _ from 'lodash'
 // 얕은 복사(Shallow copy), 깊은 복사(Deep copy)
 
 const user = {
-	name: 'Heropy',
+	name: 'abc',
 	age: 85,
-	emails: ['sacultang@gmail.com'],
+	emails: ['abc@gmail.com'],
 }
 const copyUser = { ...user }
 console.log(copyUser === user)
